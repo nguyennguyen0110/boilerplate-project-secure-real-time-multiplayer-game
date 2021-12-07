@@ -25,7 +25,6 @@ app.use(helmet({
   },
 }));
 app.use(nocache());
-// app.set('x-powered-by', 'PHP 7.4.3');
 
 // Index page (static HTML)
 app.route('/')
